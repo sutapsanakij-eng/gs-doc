@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Prompt', 'Sarabun', sans-serif;
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom official watermark layer */
+.document-watermark {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(220, 38, 38, 0.04),
+    rgba(220, 38, 38, 0.04) 120px,
+    transparent 120px,
+    transparent 240px
+  );
+}

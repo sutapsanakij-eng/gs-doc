@@ -1,0 +1,6 @@
+{
+  "name": "ระบบตรวจสอบและบริหารเอกสารข้าราชการผู้ได้รับบำเหน็จ (GP-DMS)",
+  "description": "ระบบส่วนกลางตรวจสอบและบริหารเอกสารข้าราชการ/กำลังพลผู้ได้รับบำเหน็จ พร้อมการแยกข้อมูลตามสังกัดหน่วยงาน (Org-based & RBAC) และบันทึก Audit Trail ระดับองค์กร",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
